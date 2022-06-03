@@ -1,8 +1,8 @@
 {
     "manifest_version" : 3,
     "name" : "YouTube Live Chat Filter",
-    "description" : "",
-    "version" : "0.1.0",
+    "description" : "Filter chats in live/archive streams on YouTube by using Regular Expression",
+    "version" : "0.1.2",
     
     "host_permissions": [
         "https://www.youtube.com/*"
