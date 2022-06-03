@@ -1,7 +1,7 @@
 console.log(location.href);
 
 const spamWordPatterns = [
-    /^[\w ]+$/,
+    /^[\w"\-]+( [\w"\-]+){3,}$/,
 ];
 
 function isSpamMessage(text) {
